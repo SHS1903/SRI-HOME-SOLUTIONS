@@ -116,10 +116,50 @@ h1{
   border:none;
   cursor:pointer;
   box-shadow:0 4px 10px rgba(0,0,0,0.5);
+  font-size:18px;
 }
 
-.whatsapp{ bottom:20px; background:#25D366; color:#fff; }
-.call{ bottom:80px; background:gold; color:#000; }
+.whatsapp{
+  bottom:20px;
+  background:#25D366;
+  color:#fff;
+}
+
+.call{
+  bottom:80px;
+  background:gold;
+  color:#000;
+}
+
+.share{
+  bottom:140px;
+  background:#1DA1F2;
+  color:#fff;
+}
+
+.insta{
+  position:fixed;
+  right:20px;
+  bottom:200px;
+  background:linear-gradient(45deg,#f58529,#dd2a7b,#8134af);
+  color:#fff;
+  border:none;
+  border-radius:50%;
+  padding:14px;
+  font-size:18px;
+  cursor:pointer;
+  box-shadow:0 4px 10px rgba(0,0,0,0.5);
+}
+
+/* FOOTER */
+footer{
+  text-align:center;
+  padding:25px;
+  background:#0a0f2c;
+  border-top:2px solid gold;
+  color:gold;
+  margin-top:20px;
+}
 
 </style>
 </head>
@@ -134,33 +174,44 @@ Complete Real Estate, Construction & Home Service Company.
 We deliver trusted, fast and professional services with high-quality execution.
 </p>
 
-<p>📞 9492556506 | 9000323609</p>
+<p>📞 9000323609</p>
 </header>
 
-<!-- ABOUT BUSINESS -->
+<!-- ABOUT -->
 <div class="about">
 <b>About Us:</b><br>
-We provide complete property solutions from land buying to construction, approvals, loans, and all home maintenance services.
-Our business model is based on commission, project contracts, service charges, and monthly maintenance — ensuring both quality service and strong revenue generation.
+We provide complete property solutions from land buying to construction, approvals, revenue works, loans, and all home maintenance services.  
+Our business focuses on strong revenue-generating real estate and government approval services.
 </div>
 
 <div class="section-title">Our Services</div>
 
 <!-- REAL ESTATE -->
-<div class="cat">🏢 REAL ESTATE (High Revenue)</div>
+<div class="cat">🏢 REAL ESTATE</div>
 <div class="grid">
 <div class="card"><div class="icon">🏢</div><div class="title">Buying & Selling Lands</div></div>
 <div class="card"><div class="icon">📄</div><div class="title">Property Documentation</div></div>
-<div class="card"><div class="icon">🤝</div><div class="title">Brokerage Services</div></div>
+</div>
+
+<!-- REVENUE & LEGAL WORKS -->
+<div class="cat">📄 REVENUE & LEGAL WORKS</div>
+<div class="grid">
+<div class="card"><div class="icon">🧾</div><div class="title">Revenue Works</div></div>
+<div class="card"><div class="icon">📑</div><div class="title">Registration Works</div></div>
+<div class="card"><div class="icon">🗺</div><div class="title">Land Conversion Works</div></div>
+<div class="card"><div class="icon">🔄</div><div class="title">Mutation Works</div></div>
+<div class="card"><div class="icon">🏗</div><div class="title">Land Development Works</div></div>
+<div class="card"><div class="icon">🏢</div><div class="title">Extra Floor Permissions</div></div>
 </div>
 
 <!-- CONSTRUCTION -->
-<div class="cat">🏗 CONSTRUCTION (Core Business)</div>
+<div class="cat">🏗 CONSTRUCTION</div>
 <div class="grid">
 <div class="card"><div class="icon">🏗</div><div class="title">House Construction</div></div>
 <div class="card"><div class="icon">🏢</div><div class="title">Villa / Apartment Works</div></div>
 <div class="card"><div class="icon">🔨</div><div class="title">Renovation Works</div></div>
 <div class="card"><div class="icon">🪵</div><div class="title">Interior Works</div></div>
+<div class="card"><div class="icon">🧱</div><div class="title">Civil Works</div></div>
 </div>
 
 <!-- APPROVALS -->
@@ -169,6 +220,7 @@ Our business model is based on commission, project contracts, service charges, a
 <div class="card"><div class="icon">📄</div><div class="title">GHMC / HMDA Approvals</div></div>
 <div class="card"><div class="icon">🏛</div><div class="title">Building Permissions</div></div>
 <div class="card"><div class="icon">📑</div><div class="title">Legal Documentation</div></div>
+<div class="card"><div class="icon">🗺</div><div class="title">Layout Approvals</div></div>
 </div>
 
 <!-- FINANCE -->
@@ -177,10 +229,11 @@ Our business model is based on commission, project contracts, service charges, a
 <div class="card"><div class="icon">💰</div><div class="title">Personal Loans</div></div>
 <div class="card"><div class="icon">🏦</div><div class="title">Home Loans</div></div>
 <div class="card"><div class="icon">📊</div><div class="title">Loan Assistance</div></div>
+<div class="card"><div class="icon">💳</div><div class="title">Credit Support</div></div>
 </div>
 
 <!-- HOME SERVICES -->
-<div class="cat">🏠 HOME MAINTENANCE</div>
+<div class="cat">🏠 HOME SERVICES</div>
 <div class="grid">
 <div class="card"><div class="icon">⚡</div><div class="title">Electrical Works</div></div>
 <div class="card"><div class="icon">🔧</div><div class="title">Plumbing Works</div></div>
@@ -188,6 +241,7 @@ Our business model is based on commission, project contracts, service charges, a
 <div class="card"><div class="icon">🧼</div><div class="title">Cleaning Services</div></div>
 <div class="card"><div class="icon">🎨</div><div class="title">Painting Works</div></div>
 <div class="card"><div class="icon">📷</div><div class="title">CCTV Installation</div></div>
+<div class="card"><div class="icon">🔒</div><div class="title">Security Systems</div></div>
 </div>
 
 <!-- OTHER -->
@@ -195,11 +249,23 @@ Our business model is based on commission, project contracts, service charges, a
 <div class="grid">
 <div class="card"><div class="icon">🚚</div><div class="title">Packers & Movers</div></div>
 <div class="card"><div class="icon">👩‍🍳</div><div class="title">Cooking & Helpers</div></div>
+<div class="card"><div class="icon">🧑‍🔧</div><div class="title">Skilled Labour Supply</div></div>
 </div>
 
 <!-- FLOAT BUTTONS -->
-<button class="float whatsapp" onclick="window.open('https://wa.me/919492556506')">💬</button>
-<button class="float call" onclick="window.location.href='tel:9492556506'">📞</button>
+<button class="float whatsapp" onclick="window.open('https://wa.me/91900323609','_blank')">💬</button>
+
+<button class="float call" onclick="window.location.href='tel:9000323609'">📞</button>
+
+<button class="float share" onclick="navigator.share ? navigator.share({title:'SRI HOME SOLUTIONS', url:window.location.href}) : alert('Share not supported')">🔗</button>
+
+<button class="insta" onclick="window.open('https://instagram.com','_blank')">📷</button>
+
+<!-- FOOTER -->
+<footer>
+<b>SRI HOME SOLUTIONS</b><br>
+Quthbullapur, Hyderabad - 500055
+</footer>
 
 </body>
 </html>
