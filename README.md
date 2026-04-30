@@ -1,2 +1,2 @@
 # SRI-HOME-SOLUTIONS
-Allinone is a trusted local service platform in Hyderabad connecting customers with reliable professionals. We provide painting, manpower, electrician, carpenter, welder, and plumber services. With quick response and clear availability, Allinone makes local services simple and dependable.
+SRI HOME SOLUTIONS provides complete home and property services in one place, including plumbing, electrical, cleaning, AC repair, construction, interior design, GHMC/HMDA permissions, real estate, and loan services. We deliver reliable, affordable, and high-quality solutions for all your home and business needs.
